@@ -6,7 +6,15 @@ const StartPage = () => {
   const navigate = useNavigate();
 
   return (
-    <Box mt={3}>
+    <Box
+      mt={3}
+      sx={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        height: "100vh",
+      }}
+    >
       <Button
         onClick={() => {
           navigate("/settings");
@@ -27,7 +35,7 @@ const StartPage = () => {
           },
         }}
       >
-        Начать игру
+        Войти в игру
       </Button>
     </Box>
   );
