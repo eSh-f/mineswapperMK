@@ -43,13 +43,13 @@ const Settings = () => {
 
     switch (selectedDifficulty) {
       case "easy":
-        playSound("/audio/round1.mp3");
+        playSound("audio/round1.mp3");
         break;
       case "medium":
-        playSound("/audio/round2.mp3");
+        playSound("audio/round2.mp3");
         break;
       case "hard":
-        playSound("/audio/round3.mp3");
+        playSound("audio/round3.mp3");
         break;
     }
   }, [selectedDifficulty]);
