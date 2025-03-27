@@ -3,10 +3,10 @@ import { useSelector } from "react-redux";
 import { RootState } from "../store/store";
 
 const animations = {
-  idle: "/gif/stand.gif",
-  sAttack: "/gif/sAtack.gif",
-  kWin: "/gif/kWin.gif",
-  victory: "/gif/sWin.gif",
+  idle: "/mineswapperMK/gif/stand.gif",
+  sAttack: "/mineswapperMK/gif/sAtack.gif",
+  kWin: "/mineswapperMK/gif/kWin.gif",
+  victory: "/mineswapperMK/gif/sWin.gif",
 };
 
 const FighterAnimation = () => {

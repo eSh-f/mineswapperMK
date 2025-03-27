@@ -21,7 +21,11 @@ const GameOverModal: FC<IGameOverModalProps> = ({ open, victory, time }) => {
       backgroundMusic.pause();
     }
 
-    const sound = new Audio(victory ? "/audio/victory.mp3" : "/audio/lose.mp3");
+    const sound = new Audio(
+      victory
+        ? "/mineswapperMK/audio/victory.mp3"
+        : "/mineswapperMK/audio/lose.mp3",
+    );
     sound.volume = 0.3;
     sound.play().catch((e) => console.error(e));
     soundRef.current = sound;

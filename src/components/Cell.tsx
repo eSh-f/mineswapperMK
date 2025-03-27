@@ -12,7 +12,7 @@ interface ICellProps {
 const Cell: FC<ICellProps> = ({ cell, row, col, onClick, onRightClick }) => {
   let cellCountent: React.ReactNode = (
     <img
-      src="/icons/cellIcon.png"
+      src="/mineswapperMK/icons/cellIcon.png"
       alt="Закрытая клетка"
       width="24"
       height="24"
