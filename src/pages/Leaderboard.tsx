@@ -45,7 +45,7 @@ const Leaderboard = () => {
       }}
     >
       <Button
-        onClick={goBack}
+        onClick={() => (window.location.href = "/mineswapperMK/game")}
         sx={{
           width: "100px",
           backgroundColor: "#111",

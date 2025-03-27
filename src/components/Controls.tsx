@@ -97,7 +97,7 @@ const Controls = () => {
       </Button>
 
       <Button
-        onClick={() => (window.location.href = "/leaderboard")}
+        onClick={() => (window.location.href = "/mineswapperMK/leaderboard")}
         sx={{
           width: "100px",
           backgroundColor: "#111",
