@@ -4,9 +4,11 @@ import { RootState } from "../store/store";
 import { resetGame } from "../store/gameSlice";
 import Timer from "./Timer";
 import { Box, Button, Typography } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 const Controls = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const minesLeft = useSelector((state: RootState) => state.game.minesLeft);
   const gameOver = useSelector((state: RootState) => state.game.gameOver);
   const victory = useSelector((state: RootState) => state.game.victory);
@@ -76,7 +78,7 @@ const Controls = () => {
       </Button>
 
       <Button
-        onClick={() => (window.location.href = "/settings")}
+        onClick={() => navigate("/settings")}
         sx={{
           width: "100px",
           backgroundColor: "#111",
@@ -97,7 +99,7 @@ const Controls = () => {
       </Button>
 
       <Button
-        onClick={() => (window.location.href = "/mineswapperMK/leaderboard")}
+        onClick={() => navigate("/leaderboard")}
         sx={{
           width: "100px",
           backgroundColor: "#111",

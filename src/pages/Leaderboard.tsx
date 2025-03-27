@@ -19,10 +19,6 @@ const Leaderboard = () => {
 
   const navigate = useNavigate();
 
-  const goBack = () => {
-    navigate(-1);
-  };
-
   useEffect(() => {
     const saved = localStorage.getItem("minesweeper_leaderboard");
     if (saved) {
@@ -45,7 +41,7 @@ const Leaderboard = () => {
       }}
     >
       <Button
-        onClick={() => (window.location.href = "/mineswapperMK/game")}
+        onClick={() => navigate("/game")}
         sx={{
           width: "100px",
           backgroundColor: "#111",
