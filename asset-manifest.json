@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/mineswapperMK/static/css/main.2e63da11.css",
-    "main.js": "/mineswapperMK/static/js/main.902dc061.js",
+    "main.js": "/mineswapperMK/static/js/main.fd6f1b8b.js",
     "index.html": "/mineswapperMK/index.html",
     "main.2e63da11.css.map": "/mineswapperMK/static/css/main.2e63da11.css.map",
-    "main.902dc061.js.map": "/mineswapperMK/static/js/main.902dc061.js.map"
+    "main.fd6f1b8b.js.map": "/mineswapperMK/static/js/main.fd6f1b8b.js.map"
   },
   "entrypoints": [
     "static/css/main.2e63da11.css",
-    "static/js/main.902dc061.js"
+    "static/js/main.fd6f1b8b.js"
   ]
 }
