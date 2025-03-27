@@ -4,10 +4,10 @@ import { useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
 
 const difficultyToMusic: Record<string, string> = {
-  easy: "audio/easy.mp3",
-  medium: "audio/medium.mp3",
-  hard: "audio/hard.mp3",
-  default: "audio/mk3.mp3",
+  easy: "mineswapperMK/audio/easy.mp3",
+  medium: "mineswapperMK/audio/medium.mp3",
+  hard: "mineswapperMK/audio/hard.mp3",
+  default: "mineswapperMK/audio/mk3.mp3",
 };
 
 const Music = () => {
