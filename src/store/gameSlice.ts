@@ -54,7 +54,7 @@ export const gameSlice = createSlice({
     },
 
     openCell: (state, action: PayloadAction<{ row: number; col: number }>) => {
-      if (state.gameOver) return; // Если игра окончена ничего не делаем
+      if (state.gameOver) return; 
 
       const { row, col } = action.payload;
       let cell = state.board[row][col];
