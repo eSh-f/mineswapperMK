@@ -148,15 +148,12 @@ export const gameSlice = createSlice({
           time: state.timer,
         };
 
-        // Загружаем текущие рекорды
         const records = JSON.parse(
           localStorage.getItem("minesweeper_leaderboard") || "[]",
         );
 
-        // Добавляем новый рекорд
         records.push(newRecord);
 
-        // Сохраняем обновленный список рекордов
         localStorage.setItem(
           "minesweeper_leaderboard",
           JSON.stringify(records),
