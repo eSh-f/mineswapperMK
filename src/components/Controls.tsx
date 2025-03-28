@@ -46,7 +46,7 @@ const Controls = () => {
           component="span"
           sx={{
             display: "inline-block",
-            width: "20px", // фиксируем ширину только для числа
+            width: "20px", 
             textAlign: "right",
           }}
         >
