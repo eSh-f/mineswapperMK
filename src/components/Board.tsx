@@ -14,8 +14,8 @@ const Board: FC<TBoardProps> = ({ board, onCellClick, onCellRightClick }) => {
     <Box
       sx={{
         display: "grid",
-        gridTemplateColumns: `repeat(${board[0]?.length || 1}, 30px)`, // Меняем местами rows и cols
-        gridTemplateRows: `repeat(${board.length || 1}, 30px)`, // Указываем строки правильно
+        gridTemplateColumns: `repeat(${board[0]?.length || 1}, 30px)`, 
+        gridTemplateRows: `repeat(${board.length || 1}, 30px)`, 
       }}
     >
       {board.map((row, rowIndex) =>
