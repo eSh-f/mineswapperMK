@@ -35,7 +35,7 @@ const Game = () => {
         alignItems: "center",
         flexDirection: "column",
         height: "100vh",
-        overflow: "hidden", // Отключаем прокрутку всей страницы
+        overflow: "hidden", 
       }}
     >
       <Music />
@@ -51,7 +51,7 @@ const Game = () => {
           flexDirection: "column",
           alignItems: "center",
           gap: "20px",
-          maxWidth: "95vw", // Чтобы не выходило за границы экрана
+          maxWidth: "95vw", 
         }}
       >
         <Controls />
